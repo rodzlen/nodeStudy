@@ -1,4 +1,5 @@
 //worker thread 를 사용한 소수 개수 구하기 
+// 여덟개의 워크 스레드를 할당하여 일을 처리한다.
 
 const {
   Worker, isMainThread, parentPort, workerData,
